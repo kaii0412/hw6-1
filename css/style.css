@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&family=Quattrocento&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* latin-ext */
+@font-face {
+	font-family: 'Quattrocento';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/quattrocento/v12/OZpEg_xvsDZQL_LKIF7q4jP3zWj6XYvVuU4V.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+	font-family: 'Quattrocento';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/quattrocento/v12/OZpEg_xvsDZQL_LKIF7q4jP3w2j6XYvVuQ.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:Quattrocento,Cedarville,cursive,NotoSerifTC-Regular,sans-serif,Playfair;	
+}
+
+p {
+	font-size: 16px;
+	letter-spacing: 0.3ch;
+	
+}
+
+
+
+
+/*nav選單*/
+.navbar{
+	background-color: whitesmoke;
+	opacity: 60%;
+}
+.navbar-brand img {
+	height: 50px;
+}	
+.navbar a{
+    letter-spacing: 0.3ch;
+	font-weight: bold;
+	color: #000000;
+	font-family: 'Playfair Display', serif;	
+}
+.nav-item{ 
+	align-items: center;
+}
+.shoppingcart{
+	width:2%;
+}
+
+
+/*banner*/
+.banner {
+	margin-top: 76px;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+
+
+/*美麗秘密*/
+.about {
+	padding:100px 0;
+	background:#decece; 
+}
+
+.about img {
+	width: 100%;
+}
+.title {
+	font-size:30px;
+	font-weight: bold;
+	font-family:  'Noto','Playfair Display', serif, serif, TC !important;
+	letter-spacing: 0.5ch;
+	color: rgb(255, 255, 255);
+}
+
+.title_line {
+	border-color:#ffffff;
+}
+
+.story {
+	padding: 50px 0;
+	font-size: 16px;
+	font-family: 'Noto','Playfair Display', serif, serif, TC !important;
+	color:rgb(49, 49, 49);
+}
+
+.story span {
+	font-family: 'Noto','Playfair Display', serif, serif, TC !important;
+	color: #262525;
+	font-style: normal;
+	font-size: 26px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+	padding-left: 100px;
+	letter-spacing: 0.3ch;
+}
+.story p{
+	font-family: 'Noto','Playfair Display', serif, serif, TC !important;
+}
+.title_line {
+	margin-bottom: 50px;
+}
+
+/*好評*/
+.product {
+	background-color: #F0E5DE;
+	padding-bottom:70px;
+}
+
+.product_img_1{
+	width:80%;
+	margin-bottom:20px;
+	padding-left:200px;
+}
+
+.product_img_2{
+	width:82%;
+	margin-bottom:20px;
+	padding-left:200px;
+}
+
+.product_img_3{
+	width:80%;
+	margin-bottom:20px;
+	padding-left:300px;
+}
+
+.product img:hover {
+	opacity: 0.8;
+}
+.product_name {
+	padding: 10px;
+	font-size: 25px;
+	font-family: 'Noto','Playfair Display', serif, serif, TC !important;
+	font-weight: bold;
+}
+
+/*聯絡我*/
+.contact {
+	height:750px;
+	padding-top: 100px;
+	background-image: url(../img/contact_bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+	font-family:  'Noto','Playfair Display', serif, serif, TC !important;
+}
+
+.contact .title {
+	color:#ffffff;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+input[type=submit] {
+  background-color: #ABD0CE;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: #8ABCB8;
+}
+
+/*footer*/
+footer {
+	background-color: #c1adad;
+	padding:20px 0; 
+}
+
+footer p {
+	line-height: 39px;
+	font-family: 'Noto','Playfair Display', serif, serif, TC !important;
+}
+.footer-img{
+	width: 5%;
+	padding-right: 5px;
+
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
